@@ -1,0 +1,21 @@
+img {
+  width: 80%;
+  height: 70%;
+}
+
+.fondo {
+  background-image: url(../img/fondo.jpg);
+}
+
+h1 {
+  font-family: 'Linden Hill', serif;
+  font-size: 5em;
+  font-weight: bold;
+}
+#index, #info, #productos, #contacto{
+  padding-top: 60px;
+}
+
+.grey {
+  background-color: #eeeeee;
+}
