@@ -52,18 +52,18 @@
 ![jointDeveloper](https://raw.githubusercontent.com/jointDeveloper/IntroduccionMaterialize/master/images/img3.png)
 
 * Seleccionamos el Navbar que más nos guste y copiamos el código. Para nuestro caso seleccionamos este:
-  ```html
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-  ```
+```html
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+  </div>
+</nav>
+```
 * Escribimos el script de inicialización.
 ```javascript
 <script>
@@ -74,61 +74,61 @@
 </script>
 ```
 * Vamos a agregar la propiedad ***navbar-fixed***.
-  ```html
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        ...
-    </nav>
-  </div>  
-  ```
+```html
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      ...
+  </nav>
+</div>  
+```
 ### Icons
 * Vamos a la pagina de [Materialize](http://materializecss.com/) y damos clic en Components y luego en Icons.
 
 ![jointDeveloper](https://raw.githubusercontent.com/jointDeveloper/IntroduccionMaterialize/master/images/img4.png)
 
 * Copiamos la linea de iconos y seleccionamos el icono que mas nos guste.
-  ```html
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper" >
-        <a href="#" class="brand-logo center"><i class="large material-icons">shopping_cart</i></a>
-        ...
-      </div>
-    </nav>
-  </div>
-  ```
+```html
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper" >
+      <a href="#" class="brand-logo center"><i class="large material-icons">shopping_cart</i></a>
+      ...
+    </div>
+  </nav>
+</div>
+```
 ## Titulo de nuestra pagina
 * Vamos a Escribir el Titulo de nuestra página.
   * HTML
-    ```html
-    <div class="fondo">
-      <div class="row container" id="index">
-        <h1 class="center">jointDeveloper Shop</h1>
-      </div>
+  ```html
+  <div class="fondo">
+    <div class="row container" id="index">
+      <h1 class="center">jointDeveloper Shop</h1>
     </div>
-    ```
+  </div>
+  ```
   * CSS  
-    ```css
-    .fondo {
-      background-image: url(../img/fondo.jpg);
-    }
-    ```
+  ```css
+  .fondo {
+    background-image: url(../img/fondo.jpg);
+  }
+  ```
 
 ## Contenido de la página
 * Vamos a llenar el contenido de nuestra página.
-  ```html
-  <div class="row container" id="info">
-    <div class="col s8">
-      <p>
-        ...
-      </p>
-    </div>
-    <div class="col s4">
-      <img src="img/venta.jpg" alt="" />
-    </div>
-  </div>  
-  ```
+```html
+<div class="row container" id="info">
+  <div class="col s8">
+    <p>
+      ...
+    </p>
+  </div>
+  <div class="col s4">
+    <img src="img/venta.jpg" alt="" />
+  </div>
+</div>  
+```
 ## Nuestros Productos
 * Para darle un titulo a esta sección hacemos lo siguiente:
 ```html
